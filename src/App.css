@@ -142,6 +142,7 @@ nav.navbar {
 
 .banner img {
   animation: updown 3s linear infinite;
+  margin-left: 100px;
 }
 @keyframes updown {
     0% {
@@ -228,4 +229,14 @@ nav.navbar {
   to {
     transform: rotate(360deg);
   }
+}
+/*********** BUTTON *************/
+.button1{
+  margin-left: -100px;
+}
+.button2{
+  margin-left: -100px;
+}
+.button3{
+  margin-left: 900px;
 }
