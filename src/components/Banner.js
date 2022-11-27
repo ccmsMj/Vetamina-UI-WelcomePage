@@ -1,9 +1,9 @@
-import {Navbar,Container, Row, Col } from "react-bootstrap";
+import {Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Button from 'react-bootstrap/Button';
-import { HashLink } from 'react-router-hash-link';
+
 
 export const Banner = () => {
 
@@ -27,8 +27,10 @@ export const Banner = () => {
                         clinic making the work efficient and convenient for the veterinary employees, pet owners, and clients which will make the system 
                         consumer-centric thus, it will be simplified as it is simple to understand without a deep background knowledge to use the system</p>
                   
-                  <Button variant="success" className="button1">LOGIN NOW </Button>
-                  <Button variant="success" className="button2">REGISTER NOW </Button>
+                  <button >ADMIN</button>
+                  <button >CLINIC</button>
+                  <button >VETERINARIAN</button>
+                  <button >EMPLOYEE</button>
                  
                  
                   
