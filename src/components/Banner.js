@@ -1,18 +1,20 @@
-import {Container, Row, Col } from "react-bootstrap";
+import {Navbar,Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Button from 'react-bootstrap/Button';
-import {Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
 
   return (
-    
+ 
     <section className="banner" id="home"> 
+ 
       <Container>
       
         <Row className="aligh-items-center">
+         
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
@@ -27,7 +29,7 @@ export const Banner = () => {
                   
                   <Button variant="success" className="button1">LOGIN NOW </Button>
                   <Button variant="success" className="button2">REGISTER NOW </Button>
-                  <Button variant="success" className="button3">ADMIN LOGIN </Button>
+                 
                  
                   
               </div>}

@@ -75,14 +75,57 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+
 nav.navbar {
   position: fixed;
-  width:30%;
-  height:150px;
+  width:20%;
+  height:100px;
   margin-top: 20px;
   margin-right: 20px;
   
 }
+.reg{
+  width:295px;
+  height:70px;
+  margin-top: 20px;
+  margin-right: -2130px;
+  margin-bottom: 20px;
+  
+}
+.navbar-text button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color:chartreuse;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.navbar-text button:hover {
+  color: #121212;
+}
+.navbar-text button:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.navbar-text button {
+  font-weight: 700;
+  color: #121212;
+  border: transparent;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.2s ease-in-out;
+  text-decoration-line: underline;
+}
+
 
 /************ Banner Css ************/
 .banner {
